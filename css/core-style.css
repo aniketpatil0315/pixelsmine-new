@@ -261,10 +261,10 @@ img {
     max-width: 100%;
 }
 
-.navbar-brand img {
-    height: auto;
-    max-width: 25%;
-}
+/* .navbar-brand img { */
+    /* height: auto; */
+    /* max-width: 25%; */
+/* } */
 
 .about-me-thumb img {
     height: auto;
@@ -581,7 +581,7 @@ img {
     -webkit-transform: rotate(-90deg);
     transform: rotate(-90deg);
     position: absolute;
-    bottom: 270px;
+    bottom: 180px;
     left: -80px;
     z-index: 10;
     -webkit-box-pack: center;
@@ -666,7 +666,7 @@ img {
     margin-right: 0;
     margin-left: 0;
     text-indent: -9999999px;
-    background-color: #fff;
+    background-color: #fff;	
     cursor: pointer;
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
@@ -679,7 +679,7 @@ img {
 
 .carousel-indicators li.active:after {
     content: '';
-    display: block;
+    display: none;
     width: 16px;
     height: 16px;
     top: -26px;
@@ -1233,6 +1233,10 @@ span.accor-open {
 
 .header-area {
     background: #1d1d1d;
+}
+
+.contact-heading-text img{
+	max-width: 30%;
 }
 
 @media only screen and (max-width: 600px) 
